@@ -1,0 +1,16 @@
+name: Bug report
+description: Report a problem
+labels: [bug]
+body:
+  - type: input
+    id: env
+    attributes: {label: Environment, placeholder: preview/prod}
+  - type: textarea
+    id: steps
+    attributes: {label: Steps to reproduce}
+  - type: textarea
+    id: expected
+    attributes: {label: Expected}
+  - type: textarea
+    id: actual
+    attributes: {label: Actual}
